@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Final Project | IDS 705</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <!-- Google fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:700,400,300' rel='stylesheet' type='text/css'>
+
+  <!-- Google Analytics -->
+  <script>
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+<div id="header">
+
+  <a href="index.html">
+    <h1>IDS 705: Principles of Machine Learning</h1>
+  </a>
+  <div class='text-center'>
+    <h4>Duke University</h4>
+    <h4>Spring 2021</h4>
+  </div>
+
+  <div style="clear:both;"></div>
+</div>
+
+<div class="sechighlight">
+  <div class="container sec">
+    <h2>Final Project Professional Objectives</h2>
+    <p>This objective of this project is to enhance your professional development in three ways: (1) developing deeper competency in using and communicating machine learning methods in practical applications, (2) developing experience with collaborative data science workflows, and (3) enhancing your data science portfolio. First, this is a chance to use what you've learned throughout this course and apply the paradigms, algorithms, evaluation, and interpretation techniques discussed to a meaty problem with you and your team guiding the project development. Second, data science often occurs in a team setting, so this project gives you experience working on a team and developing collaborative workflows you can speak to on your next interview. Third, this is meant to serve as an entry into your professional data science portfolio.</p>
+    <p>Many of you are currently (or will soon be) looking for data scientist or related positions. One of the best actions you can take is to create a compelling data science portfolio that demonstrates the key competencies and experience. The competencies that many companies are looking to evaluate are nicely summarized on the <a href="https://www.dataquest.io/blog/career-guide-data-science-projects-portfolio/">Dataquest.io Blog</a>:</p>
+    <ol>
+      <li>Technical competence</li>
+      <li>The ability to communicate</li>
+      <li>The ability to collaborate with others</li>
+      <li>The ability to reason about data</li>
+      <li>The motivation and ability to take initiative (innovating and going beyond the basic requirements)</li>
+    </ol>
+    <p><b>Your project will be considered maximally successful if you demonstrate each of the above abilities.</b></p>
+    <p>To read more about what makes for a good data science portfolio, I encourage you to read these articles:</p>
+    <ul>
+      <li><a href="https://www.dataquest.io/blog/career-guide-data-science-projects-portfolio/">How to Create a Project Portfolio for Data Science Job Applications</a></li>
+      <li><a href="https://www.dataquest.io/blog/how-to-share-data-science-portfolio">How to present your data science portfolio on GitHub</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="container sec">
+    
+  <h2>Final Project Description</h2>
+
+  <p>For this final project, you will work in teams to (1) identify a problem to solve or question to answer, (2) analyze a relevant dataset to achieve that objective, (3) evaluate the performance of your approach, and (4) clearly communicate your findings to a wide audience.</p>
+
+  <h2>This team project is a little different...</h2>
+  <p>Don't fear, this is not just a "figure it all out yourself" moment. The teams that you're typically assigned to will have clearly specified, complementary roles. There will be both individual and team components to this project that will be graded and you will build towards a single set of collective team outputs. For this project, you will be guided in identifying team roles. Each team member will have four responsibilities:</p>
+  <ol>
+    <li>Executing a machine learning experimental condition</li>
+    <li>A technical role</li>
+    <li>A communication role</li>
+    <li>Supporting your teammates on achieving project success</li>
+  </ol>
+
+  <p>We'll walk through each of these four roles.</p>
+  <h3>Role #1: Executing a machine learning experimental condition</h3>
+
+  <h3>Role #2: Technical role</h3>
+  <p>will select one member of the team to take on each of the following technical roles (the fifth role only being required for teams of 5):</p>
+
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">Role ID</th>
+        <th scope="col">Primary Responsibility</th>
+        <th scope="col">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Exploratory data analysis, data preparation and feature extraction</td>
+        <td>You're in charge of data preparation and in doing a deep dive into all of the features that are part of this project. Additionally, you're in charge of creating visualizations of the output data (and potentially of the features themselves). You will also be responsible for writing the data description in the report and incorporating your output data / feature visualizations to the results section.</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Performance Evaluation</td>
+        <td>You're in charge of collecting, compiling, and presenting performance metrics, and make sure they make sense across the results from the different workstreams. You will also be creating and finalizing any ROC curves, PR curves, tables of results, etc. You will lead the results section and be responsible for providing a coherent assessment of the results of your work and their interpretation.</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Data visualization</td>
+        <td>You're in charge of all of the final versions of the data visualizations that are in this project - if there's a plot, it's your responsibility to make sure it makes sense and is of professional quality. While you will likely make the majority of plots for this project, you are not expected to make every plot; however, you do need to iterate with the authors of those plots/figures/charts that you don't make to ensure the highest quality. You will ensure all figures are adequately captioned and that every figure tells a story within the report (no figures are superfluous). This team member will also write up the methods section and provide a flow chart of the overall experimental design in visual form (<a href="https://www.nature.com/articles/sdata2016106/figures/1">example</a>).</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Background and literature review</td>
+        <td>You're in charge of putting the context around the project by reading up on similar work, and describing what has been done in this space. You'll dive deeply into interesting projects that have been conducted and synthesize their key takeaways, connecting that to the presentation of results and ensuring that the results are placed in context. You'll also ensure the the references section of the report is compliant and that other team members are contributing references and incorporating citations.</td>
+      </tr>
+      <tr>
+        <th scope="row">5 (for teams of 5)</th>
+        <td>Synthesizer and conclusion drafter</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Role #3: Communication role</h3>
+
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">Role ID</th>
+        <th scope="col">Primary Responsibility</th>
+        <th scope="col">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Team integrator and whip</td>
+        <td>You're in charge of putting the pieces together and ensuring the boxes are checked. Your role is to hold the team accountable. If deadlines aren't met - they hear from you. here are many pieces to this report and you will be responsible for identifying issues in flow between the components of the report. You will need to help the team set deadlines and stick to them for assembling the materials. Recommended strengths include writing, proofreading, and time management. Recommended strengths include writing, proofreading, and time management</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Github lead</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Website development lead</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Proposal lead and weekly meeting convener / agenda setter</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">5 (for teams of 5)</th>
+        <td>Progress report lead</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Supporting your teammates on achieving project success</h3>
+
+  <p>The roles presented above are individual responsibilities, but any team member in need that seeks out help or has questions should be supported by their team. The challenge here will be that there are numerous dependencies for this project, so PLAN AHEAD AND START EARLY. DO NOT WAIT UNTIL THE LAST MINUTE TO COMPLETE THIS PROJECT.</p>
+
+  <h2>Grading</h2>
+
+  <p>The expectation of this project is to apply the techniques that you learned from this course to your application. Following the methodologies we discussed carefully, exercising rigor in ensuring the correct interpretation of your results, and clearly and accurately communicating those results is what is key to success. It's OK if the results and your algorithm's performance are not exceptional, as long as you followed the procedures we outlined carefully to ensure that you have produced results, that your results are trustworthy, and you properly interpret your findings.</p>
+  <p>The grading for this project will be assigned as follows:</p>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">Component</th>
+        <th scope="col">Subcomponent</th>
+        <th scope="col">Weight</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Team Proposal</th>
+        <td></td>
+        <td>5%</td>
+      </tr>
+      <tr>
+        <th scope="row">Progress Report</th>
+        <td></td>
+        <td>10%</td>
+      </tr>
+      <tr>
+        <th scope="row">Final Report</th>
+        <td>Individual Contributions</td>
+        <td>30%</td>
+      </tr>
+      <tr>
+        <th scope="row"></th>
+        <td>Overall Team Grade for the Report</td>
+        <td>30%</td>
+      </tr>
+      <tr>
+        <th scope="row">Github Repository</th>
+        <td></td>
+        <td>10%</td>
+      </tr>
+      <tr>
+        <th scope="row">Peer Evaluation</th>
+        <td></td>
+        <td>15%</td>
+      </tr>
+      <tr>
+        <th scope="row">Total</th>
+        <td></td>
+        <td><b>100%</b></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Proposal</h2>
+
+  <p>Your team will submit a short project proposal. Your project proposal will be a 1-2 page document that includes the following:
+
+  <ol>
+    <li>Title for the project, assigned team number, and the names of each team member</li>
+    <li>What is the problem you're trying to solve or question you're trying to answer?</li>
+    <li>Why is this interesting or worth pursuing?</li>
+    <li>Which dataset(s) do you plan to use for this project?</li>
+    <li>What is your proposed machine learning approach and how you will evaluate your performance?</li>
+    <li>Include a list of references that you plan to read to further your knowledge of this problem</li>
+    <li>Weekly meeting time for your project - what day and time will you meet. You will be asked to report a list of dates and times that you have met for your progress report, so please keep track of these meetings.</li>
+  </ol>
+    
+  <p>If you’re looking for inspiration on how to select a project idea, start by exploring the active competitions and datasets on kaggle.com. Please stop by office hours if you’d like to discuss specific project ideas or for any other help in selecting your project idea.</p>
+
+  <h2>Progress Report</h2>
+
+  <p>Halfway through the allotted time for your project, your team will submit a progress report to provide an update on the status of the project and describe any obstacles encountered that may have adjusted the project trajectory. This document should be between 1000 and 2000 words and may be no longer than 5 pages. This report should include the following content:</p>
+
+  <ol>
+    <li>Title for the project, assigned team number, and the names of each team member</li>
+    <li>Briefly describe the goals of the project (include a short reminder of the dataset, methods, and performance evaluation you're proposing - this should cover all of the proposal questions, but more succinctly and updated with the knowledge you've gained working on the project so far)</li>
+    <li>Describe the results of your initial work. This should include relevant figures, tables, and/or other methods of conveying performance evaluation. ROC and PR curves should be present is these were proposed methods of performance evaluation.</li>
+    <li>Are there any major challenges you are facing in this project? Please mention those challenges and how you plan to overcome them or rescope the goals of the project to accommodate them.</li>
+    <li>A list of references that you have read and those you plan to read to deepen your knowledge of this problem</li>
+  </ol>
+
+  <h2>Final Report</h2>
+
+  <p>The final project report that you submit will consist of two parts: (1) a web-based project report (i.e. a website) and (2) a 5 minute video communicating the key takeaways from your project, posted on your project website.</p>
+
+  <ol>
+    <li><b>Header</b>. Include your title, team number, and the names of each team member</li>
+    <li><b>Abstract</b>. [150 words maximum] This should be the one paragraph that captures the significance of what you did and why you did it.</li>
+    <li><b>Introduction</b>. Provide a description of the problem and the value in finding a solution, motivate your reader as to why he/she should care about this question. The idea is to get your reader excited about the solution you are about to present.</li>
+    <li><b>Background</b>. This section should cite problems that have been previously addressed that relate to your work, and the key takeaways of the studies that explored that work. The idea here is to place the problem you’re working on in context and to let the reader know that you’re not working in a knowledge vacuum. For finding relevant literature, a good starting point is Google Scholar.</li>
+    <li><b>Data</b>. Describe and visualize your data. Make sure every caption fully describes the figure.  You may want to visualize the raw data and/or extracted features. What challenges are inherent to this problem? How might they be overcome?  What take away messages can you get simply from visualizing your data?</li>
+    <li><b>Methods</b>. Present your machine learning solution (a description of any preprocessing, feature extraction, classification/regression techniques) and why you made each of the choices you did. Discuss any methods that you didn’t create yourself and please cite relevant literature to support your claims. Also include a flow chart of your methodology to the reader can easily conceptualize your solution. Describe your approach to measuring generalization performance, what metric(s) you used and why. Imagine that you are writing this section so that someone could recreate your results.</li>
+    <li><b>Results</b>. Include a complete performance assessment that includes your validation approach (cross validation, train/validate/test split, etc.) and the key metrics of performance for the problem (ROC curves, PR curves, confusion matrices if applicable, etc.). You should also compare your outcomes to at least one baseline model (a simple model to exhibit your improvements) in addition to comparison against random chance guessing in the classification setting. This section should be supported with visualizations including examples where your method worked well, examples where it failed, and hypotheses supported by evidence as to why in each case.</li>
+    <li><b>Conclusions</b>. It’s critical to have a strong ending and not just let the energy fizzle out of the report. Many readers, if pressed for time, will simply read your abstract and your conclusions. In fact, you may want to start by writing your conclusions. Very succinctly recap the problem you were studying and what was your approach to the solution. Focus on explaining the key takeaways from your work - these should not be merely a set of bullet points, but fleshed out conclusions. As you're writing your conclusions think about if the reader took nothing else away from reading your report, what would you want them to know most? Did you identify one particular approach that worked well? Was there a challenge that you faced that opens the door to working on solving a new problem? What avenues of research would you pursue next?</li>
+    <li><b>Roles</b>. Since this is a team project, we want to know what your specific contribution was to this project. Provide detail on your individual role and how it contributed to the competition. Each team member should clearly articulate an individual role.</li>
+    <li><b>References</b> [no word limits]. An alphabetical list of references cited in this work. A minimum of 15 are required. Consider using the Zotero citation manager for collecting and compiling your references. These should primarily be research papers and technical reports.</li>
+  </ol>
+  <p>You will submit your report via Gradescope and should meet the following requirements</p>
+  <ul>
+    <li>Word limit: your report should be no longer than 2,500 words, not including references and figure captions</li>
+    <li>Figures are highly encouraged, and should each be referenced in the text (such that every figure has a clear point to the story that you tell). Every figure should have a caption, figure number, axis labels (with units if applicable), and legend, if applicable. If you use any figures that are not your own, they should be cited as well. </li>
+    <li>While the specific citation format is not critical, it should be consistent and follow a known model (MLA, IEEE, Chicago, APA, etc.).</li>
+
+  </ul>
+
+  <h3>Examples to emulate for project webpages:</h3>
+  <ul>
+    <li><a href="https://distill.pub/">Distll.pub</a> In my opinion, this is the BEST online interactive machine learning journal.</li>
+    <li><a href="https://devseed.com/ml-grid-docs/">Identifying transmission lines in satellite imagery assisted by machine learning</a>Excellent short project overview that provides and example of how web formats can be created </li>
+    <li><a href="http://people.duke.edu/~kjb17/gbdx/">Automatically identifying solar PV arrays in satellite imagery</a></li>
+    <li><a href="https://dataplus-2020.github.io/">Synthetic data generation for improving computer vision models</a></li>
+  </ul>
+
+
+  <h2>Video</h2>
+
+  <p>You will also submit an up-to-5 minute video summarizing your project. This video should be visually compelling and should not miss the “forest for the trees” – don’t get lost in technical details, this video is NOT the place for extreme technical detail, but instead for CLEARLY conveying the big picture of your problem/question and your solution/answer or in conveying the core concept you’re trying to teach. Imagine your aunt and uncle watching this video – would they know what’s going on? Would they find it interesting / engaging / compelling? For inspiration for what makes a good explanatory video, watch videos from the following series:</p>
+
+  <ul>
+    <li><a href="https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg">Two Minute Papers</a> by Károly Zsolnai-Fehér. Concise 1-4 minute summaries of cutting edge research papers.</li>
+    <li><a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw">3Blue1Brown</a> by Grant Sanderson. Mathematical concepts conveyed clearly, intuitively, and visually.</li>
+    <li><a href="https://www.youtube.com/channel/UConVfxXodg78Tzh5nNu85Ew">Welch Labs</a> by Stephen Welch. Series on machine learning, neural networks, and imaginary numbers.</li>
+  </ul>
+
+  <p>Once you're working on producing your video, ask your friends (especially those who may not be as technically inclined) for feedback. Do they think it was engaging/easy to follow/enjoyable to watch? Ask them their takeaways: did they get the message you were trying to communicate? Address their feedback to help you ensure the quality of your video. You're encouraged to use the audio-visual medium to the fullest to clearly present your project.</p>
+
+  <p>You'll submit your video as a .mp4 file to the instructional team (please test your file to make sure it plays before submitting).</p>
+
+  <h2>Peer Evaluation</h2>
+  <p>Since this is a team project, you will also be evaluated by your teammates (and yourself). This is a chance to offer each other feedback and reflect on your own performance. You will be rating your fellow team members on the following criteria:</p>
+
+  <ol>
+    <li>Was dependable in attending meetings to work on the project</li>
+    <li>Did work accurately and completely</li>
+    <li>Completed work on time</li>
+    <li>Contributed positively to team discussions</li>
+    <li>Helped others when needed</li>
+    <li>Responded to communications in a timely manner</li>
+    <li>Treated other team members respectfully</li>
+    <li>Demonstrated a positive attitude about the team and its work</li>
+  </ol>
+
+</div>
+
+<div class="sechighlight">
+<div id="footer">
+  <div id="footermsg">Website design inspired by the <a href="http://cs231n.stanford.edu/">Stanford CS231 course page</a></div>
+</div>
+</div>
+
+<!-- jQuery and Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
